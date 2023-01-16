@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&family=Poppins:ital,wght@0,400;1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+
+    position: fixed;
+    width: 100%;
+    margin-top: -280px;
+
+}
+
+ .navbar ul{
+
+    list-style: none;
+    background: black;
+    overflow: hidden;
+    color:white;
+    padding:0;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+
+}
+
+.navbar ul li{
+    display:inline-block;
+    padding: 20px;
+}
+
+.navbar ul li a{
+
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.navbar-link:hover,
+.navbar-link:active {
+  color: green;
+}
+.nav:hover,
+.nav:active{
+    color:red;
+}
+
+.navb:hover,
+.navb:active{
+    color:orange;
+}
+
+.navbar-lin:hover,
+.navb:active{
+
+    color: blue;
+}
+
+.navbar-l:hover,
+.navb:active{
+    color: green;
+}
+.vl {
+    border-left: 2px solid green;
+    height: 25px;
+    position: absolute;
+    left: 36.7%;
+    margin-left: -3px;
+   top:16px;
+  }
+
+  .fl{
+    border-left: 2px solid red;
+    height: 25px;
+    position: absolute;
+    left: 44.7%;
+    margin-left: -3px;
+   top:16px;
+
+  }
+
+  .kl{
+    border-left: 2px solid orange;
+    height: 25px;
+    position: absolute;
+    left: 52%;
+    margin-left: -3px;
+   top:16px;
+
+  }
+
+  .tl{
+     
+    border-left: 2px solid blue;
+    height: 25px;
+    position: absolute;
+    left: 59.1%;
+    margin-left: -3px;
+   top:16px;
+
+  }
+
+
+
+.text-box {
+    width: 100%;
+    margin-top: 20%;
+    left: 70%;
+    /* transform: translate(-50%,-50%); */
+    text-align: center;
+}
+.GDSC{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.head{
+    margin-top: 5px;
+    font-size: 25px;
+    color: red;
+    font-family: 'Poppins', sans-serif;
+}
+.body{
+    padding-left: 35.5%;
+    padding-right: 36%;
+    margin-top: 15px;
+    font-size: 17px;
+}
+.button{
+    margin-top: 40px;
+    font-size: 22px;
+    padding:12px 34px;
+    text-decoration:none;
+    color:#fff;
+    border:none;
+    border-radius: 5px;
+    background:#004aad;
+    position:relative;
+    cursor:pointer;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-family: 'Montserrat', sans-serif;
+}
